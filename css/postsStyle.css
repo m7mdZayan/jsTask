@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Sniglet', cursive;
+    background-image: url(../images/postsCover.jpg);
+    background-size: cover;
+
+}
+main > h1{
+    color:#fff;
+    text-align: center;
+    font-size: 3em;
+}
+section{
+    margin: 20px auto;
+    background-color: azure;
+    width: 60%;
+    padding: 20px 10px;
+    border-radius:20px;
+    overflow: hidden;
+}
+section img{
+    border-radius: 50%;
+}
+    
+section h2{
+    display: inline-block;
+    margin-left: 10px;
+    color:salmon;
+}
+section p{
+    margin: 20px 0 10px 10px;
+}
+section span{
+    margin-left: 10px;
+    color: sandybrown;
+    display: block;
+}
+button{
+    margin: 20px 10px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Sniglet', cursive;
+}
+button:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    -webkit-transition:all .3s;
+    -moz-transition:all .3s;
+    -o-transition:all .3s;
+}
+
